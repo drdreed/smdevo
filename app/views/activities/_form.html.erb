@@ -11,24 +11,24 @@
     </div>
   <% end %>
   
-<div class="field">
+<div class="field form-group">
     <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :class => "form-control" %>
 </div>
-<div class="field">
+<div class="field form-group">
     <%= f.label :receive %><br />
-    <%= f.text_area :receive %>
+    <%= f.text_area :receive, :class => "form-control" %>
 </div>
-<div class="field">
+<div class="field form-group">
     <%= f.label :reflect %><br />
-    <%= f.text_area :reflect %>
+    <%= f.text_area :reflect, :class => "form-control" %>
 </div>
-<div class="field">
+<div class="field form-group">
     <%= f.label :respond %><br />
-    <%= f.text_area :respond %>
+    <%= f.text_area :respond, :class => "form-control" %>
 </div>
 <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :class => "btn btn-primary" %>
 </div>
 
 <% end %>
